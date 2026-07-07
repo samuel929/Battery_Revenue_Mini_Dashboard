@@ -1,0 +1,471 @@
+{
+  "asOf": "2026-06-01",
+  "strikeMatrix": [
+    {
+      "term": 10,
+      "merchantPct": 20,
+      "cycling": 1.0,
+      "profile": "flat",
+      "pricePerMwYr": 140000
+    },
+    {
+      "term": 10,
+      "merchantPct": 20,
+      "cycling": 1.0,
+      "profile": "solar",
+      "pricePerMwYr": 135800
+    },
+    {
+      "term": 10,
+      "merchantPct": 20,
+      "cycling": 1.5,
+      "profile": "flat",
+      "pricePerMwYr": 149000
+    },
+    {
+      "term": 10,
+      "merchantPct": 20,
+      "cycling": 1.5,
+      "profile": "solar",
+      "pricePerMwYr": 144800
+    },
+    {
+      "term": 10,
+      "merchantPct": 40,
+      "cycling": 1.0,
+      "profile": "flat",
+      "pricePerMwYr": 133200
+    },
+    {
+      "term": 10,
+      "merchantPct": 40,
+      "cycling": 1.0,
+      "profile": "solar",
+      "pricePerMwYr": "138too"
+    },
+    {
+      "term": 10,
+      "merchantPct": 40,
+      "cycling": 1.5,
+      "profile": "flat",
+      "pricePerMwYr": 142200
+    },
+    {
+      "term": 10,
+      "merchantPct": 40,
+      "cycling": 1.5,
+      "profile": "solar",
+      "pricePerMwYr": 138000
+    },
+    {
+      "term": 15,
+      "merchantPct": 20,
+      "cycling": 1.0,
+      "profile": "flat",
+      "pricePerMwYr": 143100
+    },
+    {
+      "term": 15,
+      "merchantPct": 20,
+      "cycling": 1.0,
+      "profile": "solar",
+      "pricePerMwYr": 138900
+    },
+    {
+      "term": 15,
+      "merchantPct": 20,
+      "cycling": 1.5,
+      "profile": "flat",
+      "pricePerMwYr": 152100
+    },
+    {
+      "term": 15,
+      "merchantPct": 20,
+      "cycling": 1.5,
+      "profile": "solar",
+      "pricePerMwYr": 147900
+    },
+    {
+      "term": 15,
+      "merchantPct": 40,
+      "cycling": 1.0,
+      "profile": "flat",
+      "pricePerMwYr": 136300
+    },
+    {
+      "term": 15,
+      "merchantPct": 40,
+      "cycling": 1.0,
+      "profile": "solar",
+      "pricePerMwYr": 132100
+    },
+    {
+      "term": 15,
+      "merchantPct": 40,
+      "cycling": 1.5,
+      "profile": "flat",
+      "pricePerMwYr": 145300
+    },
+    {
+      "term": 15,
+      "merchantPct": 40,
+      "cycling": 1.5,
+      "profile": "solar",
+      "pricePerMwYr": 141100
+    }
+  ],
+  "pnlCurves": {
+    "10|20|1.0|flat": {
+      "asOf": "2026-06-01",
+      "strikePerMwYr": 140000,
+      "points": [
+        {
+          "p": 10,
+          "pnlPerMwYr": 92400
+        },
+        {
+          "p": 50,
+          "pnlPerMwYr": 140000
+        },
+        {
+          "p": 80,
+          "pnlPerMwYr": 161000
+        },
+        {
+          "p": 90,
+          "pnlPerMwYr": 176400
+        }
+      ]
+    },
+    "10|20|1.0|solar": {
+      "asOf": "2026-06-01",
+      "strikePerMwYr": 135800,
+      "points": [
+        {
+          "p": 10,
+          "pnlPerMwYr": 89628
+        },
+        {
+          "p": 50,
+          "pnlPerMwYr": 135800
+        },
+        {
+          "p": 80,
+          "pnlPerMwYr": 156170
+        },
+        {
+          "p": 90,
+          "pnlPerMwYr": 171108
+        }
+      ]
+    },
+    "10|20|1.5|flat": {
+      "asOf": "2026-06-01",
+      "strikePerMwYr": 149000,
+      "points": [
+        {
+          "p": 10,
+          "pnlPerMwYr": 98340
+        },
+        {
+          "p": 50,
+          "pnlPerMwYr": 149000
+        },
+        {
+          "p": 80,
+          "pnlPerMwYr": 171350
+        },
+        {
+          "p": 90,
+          "pnlPerMwYr": 187740
+        }
+      ]
+    },
+    "10|20|1.5|solar": {
+      "asOf": "2026-06-01",
+      "strikePerMwYr": 144800,
+      "points": [
+        {
+          "p": 10,
+          "pnlPerMwYr": 95568
+        },
+        {
+          "p": 50,
+          "pnlPerMwYr": 144800
+        },
+        {
+          "p": 80,
+          "pnlPerMwYr": 166520
+        },
+        {
+          "p": 90,
+          "pnlPerMwYr": 182448
+        }
+      ]
+    },
+    "10|40|1.0|flat": {
+      "asOf": "2026-06-01",
+      "strikePerMwYr": 133200,
+      "points": [
+        {
+          "p": 10,
+          "pnlPerMwYr": 87912
+        },
+        {
+          "p": 50,
+          "pnlPerMwYr": 133200
+        },
+        {
+          "p": 80,
+          "pnlPerMwYr": 153180
+        },
+        {
+          "p": 90,
+          "pnlPerMwYr": 167832
+        }
+      ]
+    },
+    "10|40|1.0|solar": {
+      "asOf": "2026-06-01",
+      "strikePerMwYr": 138000,
+      "points": [
+        {
+          "p": 10,
+          "pnlPerMwYr": 91080
+        },
+        {
+          "p": 50,
+          "pnlPerMwYr": 138000
+        },
+        {
+          "p": 80,
+          "pnlPerMwYr": 158700
+        },
+        {
+          "p": 90,
+          "pnlPerMwYr": 173880
+        }
+      ]
+    },
+    "10|40|1.5|flat": {
+      "asOf": "2026-06-01",
+      "strikePerMwYr": 142200,
+      "points": [
+        {
+          "p": 10,
+          "pnlPerMwYr": 93852
+        },
+        {
+          "p": 50,
+          "pnlPerMwYr": 142200
+        },
+        {
+          "p": 80,
+          "pnlPerMwYr": 163530
+        },
+        {
+          "p": 90,
+          "pnlPerMwYr": 179172
+        }
+      ]
+    },
+    "10|40|1.5|solar": {
+      "asOf": "2026-06-01",
+      "strikePerMwYr": 138000,
+      "points": [
+        {
+          "p": 10,
+          "pnlPerMwYr": 91080
+        },
+        {
+          "p": 50,
+          "pnlPerMwYr": 138000
+        },
+        {
+          "p": 80,
+          "pnlPerMwYr": 158700
+        },
+        {
+          "p": 90,
+          "pnlPerMwYr": 173880
+        }
+      ]
+    },
+    "15|20|1.0|flat": {
+      "asOf": "2026-06-01",
+      "strikePerMwYr": 143100,
+      "points": [
+        {
+          "p": 10,
+          "pnlPerMwYr": 94446
+        },
+        {
+          "p": 50,
+          "pnlPerMwYr": 143100
+        },
+        {
+          "p": 80,
+          "pnlPerMwYr": 164565
+        },
+        {
+          "p": 90,
+          "pnlPerMwYr": 180306
+        }
+      ]
+    },
+    "15|20|1.0|solar": {
+      "asOf": "2026-06-01",
+      "strikePerMwYr": 138900,
+      "points": [
+        {
+          "p": 10,
+          "pnlPerMwYr": 91674
+        },
+        {
+          "p": 50,
+          "pnlPerMwYr": 138900
+        },
+        {
+          "p": 80,
+          "pnlPerMwYr": 159735
+        },
+        {
+          "p": 90,
+          "pnlPerMwYr": 175014
+        }
+      ]
+    },
+    "15|20|1.5|flat": {
+      "asOf": "2026-06-01",
+      "strikePerMwYr": 152100,
+      "points": [
+        {
+          "p": 10,
+          "pnlPerMwYr": 100386
+        },
+        {
+          "p": 50,
+          "pnlPerMwYr": 152100
+        },
+        {
+          "p": 80,
+          "pnlPerMwYr": 174915
+        },
+        {
+          "p": 90,
+          "pnlPerMwYr": 191646
+        }
+      ]
+    },
+    "15|20|1.5|solar": {
+      "asOf": "2026-06-01",
+      "strikePerMwYr": 147900,
+      "points": [
+        {
+          "p": 10,
+          "pnlPerMwYr": 97614
+        },
+        {
+          "p": 50,
+          "pnlPerMwYr": 147900
+        },
+        {
+          "p": 80,
+          "pnlPerMwYr": 170085
+        },
+        {
+          "p": 90,
+          "pnlPerMwYr": 186354
+        }
+      ]
+    },
+    "15|40|1.0|flat": {
+      "asOf": "2026-06-01",
+      "strikePerMwYr": 136300,
+      "points": [
+        {
+          "p": 10,
+          "pnlPerMwYr": 89958
+        },
+        {
+          "p": 50,
+          "pnlPerMwYr": 136300
+        },
+        {
+          "p": 80,
+          "pnlPerMwYr": 156745
+        },
+        {
+          "p": 90,
+          "pnlPerMwYr": 171738
+        }
+      ]
+    },
+    "15|40|1.0|solar": {
+      "asOf": "2026-06-01",
+      "strikePerMwYr": 132100,
+      "points": [
+        {
+          "p": 10,
+          "pnlPerMwYr": 87186
+        },
+        {
+          "p": 50,
+          "pnlPerMwYr": 132100
+        },
+        {
+          "p": 80,
+          "pnlPerMwYr": 151915
+        },
+        {
+          "p": 90,
+          "pnlPerMwYr": 166446
+        }
+      ]
+    },
+    "15|40|1.5|flat": {
+      "asOf": "2026-06-01",
+      "strikePerMwYr": 145300,
+      "points": [
+        {
+          "p": 10,
+          "pnlPerMwYr": 95898
+        },
+        {
+          "p": 50,
+          "pnlPerMwYr": 145300
+        },
+        {
+          "p": 80,
+          "pnlPerMwYr": 167095
+        },
+        {
+          "p": 90,
+          "pnlPerMwYr": 183078
+        }
+      ]
+    },
+    "15|40|1.5|solar": {
+      "asOf": "2026-06-01",
+      "strikePerMwYr": 141100,
+      "points": [
+        {
+          "p": 10,
+          "pnlPerMwYr": 93126
+        },
+        {
+          "p": 50,
+          "pnlPerMwYr": 141100
+        },
+        {
+          "p": 80,
+          "pnlPerMwYr": 162265
+        },
+        {
+          "p": 90,
+          "pnlPerMwYr": 177786
+        }
+      ]
+    }
+  }
+}
