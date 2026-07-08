@@ -42,9 +42,6 @@ export function PricingTable({ rows }: Props) {
               <CardTitle>Strike matrix</CardTitle>
               <CardDescription>Drag horizontally to inspect the pricing grid. Malformed price rows are excluded by the API.</CardDescription>
             </div>
-            <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-3 py-2 text-xs font-semibold text-cyan-100">
-              <GripHorizontal className="h-4 w-4" /> Drag table
-            </div>
           </div>
         </CardHeader>
         <CardContent>

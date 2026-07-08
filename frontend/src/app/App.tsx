@@ -70,18 +70,4 @@ function Hero() {
   );
 }
 
-type HeroChipProps = {
-  icon: typeof ShieldCheck;
-  title: string;
-  text: string;
-};
 
-function HeroChip({ icon: Icon, title, text }: HeroChipProps) {
-  return (
-    <div className="rounded-2xl border border-white/10 bg-slate-950/40 p-4">
-      <Icon className="mb-3 h-5 w-5 text-cyan-200" />
-      <p className="font-bold text-white">{title}</p>
-      <p className="mt-1 text-sm leading-5 text-slate-400">{text}</p>
-    </div>
-  );
-}
